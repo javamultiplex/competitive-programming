@@ -10,3 +10,11 @@ Example - Coin toss. The results are mutually exclusive (it will be either heads
 1) Repeated SubProblems or Overlapping SubProblems
 2) Optimal SubStructure
     - if we want to compute optimal answer for the bigger problem, then if we have optimal answer for sub problem and they contribute optimally for the bigger problem so that optimal answer for the bigger problem can be constructed from optimal answer of sub problems.
+
+# State of DP
+ - State of DP means unique SubProblem
+
+# DP techniques
+
+1) Top Down - Start from bigger problem, also called as Memoisation technique or recursive solution.
+2) Bottom UP - Start from smaller problem, also called as Tabulation technique or iterative solution.
