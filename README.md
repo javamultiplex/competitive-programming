@@ -19,8 +19,8 @@
 
 # Examples
 
-## Recursion
+1. ## Recursion
 
-## Backtracking
+2. ## Backtracking
 
-## Dynamic Programming
+3. ## Dynamic Programming
