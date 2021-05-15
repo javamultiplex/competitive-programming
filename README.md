@@ -19,8 +19,8 @@
 
 # Standard Problems
 
-1. ## Recursion - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/recursion
+1. #### Recursion - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/recursion
 
-2. ## Backtracking - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/backtracking
+2. #### Backtracking - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/backtracking
 
-3. ## Dynamic Programming - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/dp
+3. #### Dynamic Programming - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/dp
