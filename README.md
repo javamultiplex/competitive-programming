@@ -17,10 +17,10 @@
 - https://unacademy.com/class/introduction-to-dynamic-programming-1/DCN0JKPJ
 
 
-# Examples
+# Standard Problems
 
 1. ## Recursion - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/recursion
 
-2. ## Backtracking - 
+2. ## Backtracking - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/backtracking
 
-3. ## Dynamic Programming
+3. ## Dynamic Programming - https://github.com/javamultiplex/competitive-programming/tree/main/src/main/java/dp
