@@ -15,6 +15,7 @@
 3. ## Dynamic Programming Master Classes
 
 - https://unacademy.com/class/introduction-to-dynamic-programming-1/DCN0JKPJ
+- https://unacademy.com/class/introdution-to-dynamic-programming-2/GQ8AAM2Y
 
 
 # Standard Problems
