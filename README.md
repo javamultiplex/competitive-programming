@@ -9,3 +9,7 @@
 - https://unacademy.com/class/backtracking-deep-dive-part-1/T10BA9S6
 - https://unacademy.com/class/backtracking-deep-dive-part-2/E7CFJENM
 - https://unacademy.com/class/backtracking-deep-dive-part-3/46JHCUHZ
+
+# Dynamic Programming
+
+- https://unacademy.com/class/introduction-to-dynamic-programming-1/DCN0JKPJ
