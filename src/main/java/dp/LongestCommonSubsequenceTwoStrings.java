@@ -21,7 +21,9 @@ public class LongestCommonSubsequenceTwoStrings {
         if (s1.charAt(i) == s2.charAt(j)) {
             dp[i][j] = 1 + lcsTD(s1, s2, i + 1, j + 1, n, m, dp);
         } else {
-            dp[i][j] = Math.max(lcsTD(s1, s2, i + 1, j, n, m, dp), lcsTD(s1, s2, i, j + 1, n, m, dp));
+            int r1 = lcsTD(s1, s2, i + 1, j, n, m, dp);
+            int r2 = lcsTD(s1, s2, i, j + 1, n, m, dp);
+            dp[i][j] = Math.max(r1, r2);
         }
         return dp[i][j];
     }
@@ -30,16 +32,14 @@ public class LongestCommonSubsequenceTwoStrings {
         int n = s1.length();
         int m = s2.length();
         int[][] dp = new int[n + 1][m + 1];
-        for (int i = 0; i <= n; i++) {
-            Arrays.fill(dp[i], 0);
-        }
-
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++) {
                 if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
                     dp[i][j] = 1 + dp[i - 1][j - 1];
                 } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                    int r1 = dp[i - 1][j];
+                    int r2 = dp[i][j - 1];
+                    dp[i][j] = Math.max(r1, r2);
                 }
             }
         }
